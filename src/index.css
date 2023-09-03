@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +20,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Khand{
+  font-family: 'Khand', sans-serif;
+  
+}
+
+.Source-Sans{
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.Sora{
+  font-family: 'Sora', sans-serif;
+}
+
+.Work-Sans{
+  font-family: 'Work Sans', sans-serif;
 }
