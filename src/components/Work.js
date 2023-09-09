@@ -3,17 +3,18 @@ import ourWorkLogo1 from "../assets/ourWorkLogo1.png";
 import ourWorkLogo2 from "../assets/ourWorkLogo2.png";
 export default function Work() {
 	return (
-		<div className="flex px-6 py-12 flex-col justify-center items-center gap-2 self-stretch bg-headerBg">
-			<div className="flex flex-col items-center gap-6">
+		<div className="flex px-6 py-12 flex-col justify-center items-center gap-2 self-stretch w-full">
+			<div className="flex flex-col items-center gap-6 md:items-start">
 				<span className="sourceSans bg-ourWorkGradient text-transparent bg-clip-text text-3xl items-start gap-3 font-normal">
 					Our Work
 				</span>
-				<div className="flex flex-col items-center justify-center gap-9">
-					<div className="flex p-6 gap-9 items-center border border-solid border-iceland rounded-s-3xl rounded-r-3xl bg-tertiaryGradient shadow-xl">
-						<div className="flex flex-col items-start justify-center gap-12">
-							<span className="WorkSans text-xl font-normal bg-secondaryGradient text-transparent bg-clip-text">
-								DSI Foundation
-							</span>
+				<div className="flex flex-col items-center justify-center gap-9 md:flex-row md:w-[780px] 2xl:w-[1000px]">
+					<div className="flex p-6 gap-9 items-center justify-around border border-solid border-iceland rounded-s-3xl rounded-r-3xl bg-tertiaryGradient shadow-xl h-[250px] md:w-1/2">
+						<div className="flex flex-col items-start justify-center gap-12 ">
+							<div className="WorkSans text-xl font-normal bg-secondaryGradient text-transparent bg-clip-text">
+								<div>DSI</div>
+								<div>Foundation</div>
+							</div>
 							<a
 								href="https://anant-moona.gitbook.io/dsi-docs/"
 								target="_blank"
@@ -33,11 +34,13 @@ export default function Work() {
 							/>
 						</div>
 					</div>
-					<div className="flex p-6 gap-9 items-center border border-solid border-iceland rounded-s-3xl rounded-r-3xl bg-tertiaryGradient shadow-xl">
+					<div className="flex p-6 gap-9 items-center justify-around border border-solid border-iceland rounded-s-3xl rounded-r-3xl bg-tertiaryGradient shadow-xl h-[250px] md:w-1/2">
 						<div className="flex flex-col items-start justify-center gap-12">
-							<span className="WorkSans text-xl font-normal bg-secondaryGradient text-transparent bg-clip-text">
-								Lucid Credit
-							</span>
+							<div className="WorkSans text-xl font-normal bg-secondaryGradient text-transparent bg-clip-text">
+								<div>Lucid</div>
+								<div>Credit</div>
+							</div>
+
 							<a
 								href="https://anant-moona.gitbook.io/dsi-docs/"
 								target="_blank"
